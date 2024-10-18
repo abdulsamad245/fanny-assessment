@@ -174,7 +174,6 @@ Ensure you have the following installed:
 
    ```bash
    git clone git clone https://github.com/abdulsamad245/fanny-assessment.git
-   cd ecommerce-api
    ```
 
 2. Install dependencies:
