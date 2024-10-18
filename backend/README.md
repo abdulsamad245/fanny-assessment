@@ -1,4 +1,3 @@
-```markdown
 # Ecommerce RESTful API
 
 This project is an Ecommerce API built with Node.js, Express, and MongoDB. It provides a backend service for managing user authentication, cart functionality, and product management.
@@ -205,4 +204,3 @@ Ensure you have the following installed:
 ## License
 
 This project is licensed under the MIT License.
-```
