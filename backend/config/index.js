@@ -1,6 +1,6 @@
-// process.env.NODE_ENV = 'production';
-process.env.NODE_ENV = 'development';
+require('dotenv').config()
 const config = {
+  connectionString: process.env.DB_STRING,
   env: process.env.NODE_ENV,
   port: process.env.PORT || 9000,
   jwtExpiresIn: 86400,
@@ -9,12 +9,10 @@ const config = {
 
 if (process.env.NODE_ENV === 'production') {
   console.log('production');
-  config.mongoUri =
-    'mongodb://yahya:mnm1b98Q9z76xH5c7adodiq@ds017173.mlab.com:17173/shopping-cart';
+  config.mongoUri = process.env.DB_STRING;
 } else {
   console.log('DEV');
-  config.mongoUri =
-    'mongodb+srv://fanny24:fanny2423@fannycluster.k181m.mongodb.net/?retryWrites=true&w=majority&appName=FannyCluster';
+  config.mongoUri = process.env.DB_STRING;
     
 }
 module.exports = config;

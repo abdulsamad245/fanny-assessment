@@ -16,6 +16,7 @@ const indexRoutes = require('./routes/index');
 const APIError = require('./helpers/APIError');
 
 const app = express();
+console.log(config.mongoUri, config.env);
 
 
 if (config.env === 'development') {
