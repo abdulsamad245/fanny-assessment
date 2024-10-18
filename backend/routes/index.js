@@ -10,7 +10,7 @@ const passport = require("passport");
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  return res.json({ message: "welcome to homepage" });
+  return res.json({ message: "Shopping Cart API" });
 });
 
 /* GET about page. */
