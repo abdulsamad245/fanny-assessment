@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   console.log('DEV');
   config.mongoUri =
-    'mongodb+srv://user_new1:yGdyl1I4WCEkI4jC@fannycluster.k181m.mongodb.net/?retryWrites=true&w=majority&appName=FannyCluster';
+    'mongodb+srv://fanny24:fanny2423@fannycluster.k181m.mongodb.net/?retryWrites=true&w=majority&appName=FannyCluster';
     
 }
 module.exports = config;

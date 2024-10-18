@@ -21,6 +21,7 @@ const app = express();
 if (config.env === 'development') {
   app.use(logger('dev'));
 }
+console.log(config.mongoUri);
 
 mongoose.Promise = global.Promise;
 mongoose
