@@ -23,8 +23,6 @@ https://crud-notes-api.onrender.com/api
 - **Express**
 - **MongoDB (Mongoose)**
 - **JWT (Json Web Token)**
-- **Bcrypt.js**
-- **HTTP-Status**
 
 ## API Endpoints
 
